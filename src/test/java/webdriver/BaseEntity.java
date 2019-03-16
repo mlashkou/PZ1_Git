@@ -16,7 +16,7 @@ public abstract class BaseEntity {
     protected static Logger logger = Logger.getInstance();
     protected static Browser browser = Browser.getInstance();
     protected ITestContext context;
-    private static final String PASS = "съешь меня";
+
 
     /**
      * Get locale
@@ -30,6 +30,10 @@ public abstract class BaseEntity {
 
     // ==============================================================================================
     // Methods for logging
+
+    public void mergeAutomatic2() {
+
+    }
 
     /**
      * Logging a step number.
@@ -185,7 +189,5 @@ public abstract class BaseEntity {
     }
 
     public void mergeAutomatic3() {
-        String yaZabilTochkySZapyatoi = "mana-mana"
-    }
 
 }
